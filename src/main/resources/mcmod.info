@@ -1,5 +1,4 @@
-[
-{
+[{
   "modid": "mmt",
   "name": "MineMaarten Tutorial",
   "description": "This is not actually a mod, it's more like a dev environment",
@@ -12,5 +11,4 @@
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
-}
-]
+}]
