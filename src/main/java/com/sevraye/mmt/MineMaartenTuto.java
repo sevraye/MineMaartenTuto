@@ -1,6 +1,7 @@
 package com.sevraye.mmt;
 
 import com.sevraye.mmt.init.ModBlocks;
+import com.sevraye.mmt.init.ModItems;
 import com.sevraye.mmt.proxy.CommonProxy;
 import com.sevraye.mmt.reference.Reference;
 import com.sevraye.mmt.utility.Log;
@@ -21,6 +22,7 @@ public class MineMaartenTuto {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		ModBlocks.init();
+		ModItems.init();
 		proxy.preInit();
 		Log.info("Pre Initialization Complete !");
 	}
