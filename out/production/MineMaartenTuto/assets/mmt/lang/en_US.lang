@@ -1,0 +1,14 @@
+# CREATIVE TAB NAME
+itemGroup.mmt=MineMaarten Tutorial
+
+# BLOCKS
+tile.frenchFlag.name=French Flag
+
+# KEYS
+key.categories.advancedMod=Advanced Mod
+key.advancedMod.explode=Explode
+
+gui.mmt.camoMine.target=Target:
+gui.mmt.camoMine.timer=Timer: %s ticks
+gui.mtm.camoMine.button.reset=Reset
+gui.mmt.camoMine.button.restart=Restart
