@@ -12,5 +12,6 @@ public class ModBlocks {
 
 	public static void init() {
 		GameRegistry.registerBlock(frenchFlag, Names.Blocks.FRENCH_FLAG);
+		//Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(frenchFlag), 0, new ModelResourceLocation(Reference.MOD_ID + ":" + Names.Blocks.FRENCH_FLAG));
 	}
 }
