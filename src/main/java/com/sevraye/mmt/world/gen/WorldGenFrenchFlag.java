@@ -16,7 +16,7 @@ import java.util.Random;
 
 public class WorldGenFrenchFlag implements IWorldGenerator {
 
-	private final WorldGenMinable flagGen = new WorldGenMinable(ModBlocks.frenchFlag.getDefaultState(), 32);
+	private final WorldGenMinable flagGen = new WorldGenMinable(ModBlocks.french_flag.getDefaultState(), 32);
 
 	private static final int FLAG_HEIGHT_POLE = 10;         //The height of the flag to generate, must be more than 3
 
@@ -82,7 +82,7 @@ public class WorldGenFrenchFlag implements IWorldGenerator {
 		for (int dx = 0; dx < 3; dx++) {
 			for (int dy = 0; dy < 3; dy++) {
 				//world.setBlock(x + 1 + dx, y + (FLAG_HEIGHT_POLE - 3) + dy, z, ModBlocks.dutchFlag, 0, 2);
-				world.setBlockState(new BlockPos(x + 1 + dx, y + (FLAG_HEIGHT_POLE - 3) + dy, z), ModBlocks.frenchFlag.getDefaultState(), 2);
+				world.setBlockState(new BlockPos(x + 1 + dx, y + (FLAG_HEIGHT_POLE - 3) + dy, z), ModBlocks.french_flag.getDefaultState(), 2);
 			}
 		}
 	}
